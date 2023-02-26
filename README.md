@@ -1,13 +1,38 @@
-<img width="637" alt="image" src="https://user-images.githubusercontent.com/1061632/191343981-45d45ebd-d7b1-479e-8ad0-098e1b41e1dd.png">
+# create-svelte
 
-De Buurtcampus is een dynamische, laagdrempelige plek waar iedereen zich welkom en uitgenodigd voelt om kennis op te doen, te ontwikkelen en te delen. Met als doel: samen de buurt duurzamer, gezonder en inclusiever maken.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-Bij Buurtcampus wordt op korte termijn een stekjesbieb neergezet. Buurtbewoners kunnen stekjes halen uit de stekjesbieb, maar ook stekjes brengen naar de stekjesbieb. De stekjesbieb dient als middel om buurtbewoners met elkaar te verbinden. Daarnaast leren bewoners hoe ze op een duurzame manier met planten kunnen omgaan en draagt het bij aan een gezondere leefomgeving in huis.
+## Creating a project
 
-## Resources
+If you're seeing this, you've probably already done this step. Congrats!
 
-[Project board](https://github.com/orgs/fdnd-agency/projects/9)
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-[Styleguide](https://github.com/fdnd-agency/buurtcampus-oost/tree/main/styleguide)
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-[Content]()
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
