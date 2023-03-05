@@ -2,16 +2,16 @@
 	import { Documentation, Nav } from '@fdnd/components';
 
 	const data = {
-		Method: {
-			// GET: '/docs/method#get',
-			// '[slug]': '/docs/method#slug'
+		Stekje: {
+			GET: '/docs/#get',
+			'[slug]': '/docs/#slug'
 			// POST: '/docs/method#post',
 			// PUT: '/docs/method#put',
 			// PATCH: '/docs/method#patch',
 			// DELETE: '/docs/method#delete',
 		},
-		Methods: {
-			// GET: '/docs/methods#get'
+		Stekjes: {
+			GET: '/docs/#get'
 		},
 		
 	};
