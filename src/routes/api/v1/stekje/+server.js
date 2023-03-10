@@ -37,6 +37,6 @@ export async function GET({ url }) {
     }
   `
   console.log(query)
-  const data = await hygraph.request(query, { first, skip, orderBy })
+  const data = await hygraph.request(query, { slug })
   return new Response(JSON.stringify(data), responseInit)
 }
