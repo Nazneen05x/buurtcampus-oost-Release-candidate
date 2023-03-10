@@ -14,7 +14,7 @@ export async function GET({ url }) {
 
   const query = gql`
     query getStekje($slug: String) {
-      stekje(slug: $slug) {
+      stekje(where: {slug: $slug}) {
         aanmelddatum
         createdAt
         giftig
