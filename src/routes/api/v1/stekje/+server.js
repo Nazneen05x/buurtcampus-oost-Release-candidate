@@ -29,12 +29,9 @@ export async function GET({ url }) {
         fotos {
           height
           width
-          thumbnail: url(
-            transformation: {
-              image: { resize: { width: 500, fit: clip } }
-            }
-          )
+          thumbnail: url(transformation: { image: { resize: { width: 500, fit: clip } } })
           url
+          webp: url(transformation: { document: { output: { format: webp } } })
         }
       }
       stekjesConnection {
