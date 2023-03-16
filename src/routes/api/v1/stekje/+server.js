@@ -26,6 +26,11 @@ export async function GET({ url }) {
         updatedAt
         verpotten
         voeding
+        fotos {
+          url
+          height
+          width
+        }
       }
       stekjesConnection {
         pageInfo {
