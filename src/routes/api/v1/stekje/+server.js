@@ -27,9 +27,14 @@ export async function GET({ url }) {
         verpotten
         voeding
         fotos {
-          url
           height
           width
+          thumbnail: url(
+            transformation: {
+              image: { resize: { width: 500, fit: clip } }
+            }
+          )
+          url
         }
       }
       stekjesConnection {
