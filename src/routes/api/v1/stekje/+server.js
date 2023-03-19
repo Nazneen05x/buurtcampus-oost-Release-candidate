@@ -35,16 +35,9 @@ export async function GET({ url }) {
           smallAsWebP: url(transformation: { image: { resize: { width: 500, fit: clip } } document: { output: { format: webp } } })
         }
       }
-      stekjesConnection {
-        pageInfo {
-          hasNextPage
-          hasPreviousPage
-          pageSize
-        }
-      }
     }
   `
-  console.log(query)
+
   const data = await hygraph.request(query, { slug })
   return new Response(JSON.stringify(data), responseInit)
 }
