@@ -3,15 +3,15 @@
 
 	const data = {
 		Stekje: {
-			GET: '/docs/#get',
-			'[slug]': '/docs/#slug'
+			GET: '/docs/stekje',
 			// POST: '/docs/method#post',
 			// PUT: '/docs/method#put',
 			// PATCH: '/docs/method#patch',
 			// DELETE: '/docs/method#delete',
 		},
 		Stekjes: {
-			GET: '/docs/#get'
+			GET: '/docs/stekjes#get',
+			POST: '/docs/stekjes#post'
 		},
 		
 	};
