@@ -156,7 +156,8 @@ export async function POST({ request }) {
 
   return new Response(
     JSON.stringify({
-      data: data && data.publishUrl
+      data: data && data.publishUrl,
+      success: data && data.publishUrl ? true : false,
     }),
     responseInit
   )
