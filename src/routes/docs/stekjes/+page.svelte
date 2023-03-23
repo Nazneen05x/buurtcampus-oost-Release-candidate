@@ -31,10 +31,10 @@
 <pre><code>&lbrace;
 	"beschrijving": "...",
 	"aanmelddatum": "...",
-	"landvanherkomst", "..."
-	"giftig", "..."
-	"verpotten", "..."
-	"voeding", "..."
+	"landvanherkomst": "...",
+	"giftig": "...",
+	"verpotten": "...",
+	"voeding": "..."
 &rbrace;</code></pre>
 
 <ul><li>
