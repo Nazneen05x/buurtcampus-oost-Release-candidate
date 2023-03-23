@@ -103,8 +103,8 @@ export async function POST({ request }) {
 
   // Bereid de mutatie voor
   const mutation = gql`
-    mutation createStekje($naam: String!, $beschrijving: String, $aanmelddatum: Date, $landvanherkomst: String) {
-      createStekje(data: { naam: $naam, beschrijving: $beschrijving, aanmelddatum: $aanmelddatum, landvanherkomst: $landvanherkomst }) {
+    mutation createStekje($naam: String!, $beschrijving: String, $aanmelddatum: Date, $landvanherkomst: String, $giftig: String, $verpotten: String, $voeding: String) {
+      createStekje(data: { naam: $naam, beschrijving: $beschrijving, aanmelddatum: $aanmelddatum, landvanherkomst: $landvanherkomst, giftig: $giftig, verpotten: $verpotten, voeding: $voeding }) {
         id
       }
     }

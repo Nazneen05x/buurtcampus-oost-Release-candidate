@@ -32,6 +32,9 @@
 	"beschrijving": "...",
 	"aanmelddatum": "...",
 	"landvanherkomst", "..."
+	"giftig", "..."
+	"verpotten", "..."
+	"voeding", "..."
 &rbrace;</code></pre>
 
 <ul><li>
